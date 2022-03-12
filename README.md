@@ -18,7 +18,7 @@ The minimum possible value of C-perplexity is 1. High C-perplexity value indicat
  
 We define the **X-perplexity** of an labelled example $(\x, y)$ w.r.t ![equation](https://latex.codecogs.com/svg.image?\mathit{C}) to be:
 
-![equation](https://latex.codecogs.com/svg.image?\large&space;\Phi_{X}(\mathbf{x})&space;=&space;\frac{1}{N}&space;\sum_{i=1}^N&space;\1(C_i(\mathbf{x})&space;\neq&space;y)),
+![equation](https://latex.codecogs.com/svg.image?\large&space;\Phi_{X}(\mathbf{x})&space;=&space;\frac{1}{N}&space;\sum_{i=1}^N&space;\mathbf{1}(C_i(\mathbf{x})&space;\neq&space;y)),
 
 -----------------------------------------------------------------------------------------------------------------------
 #### A. 模型池的训练
