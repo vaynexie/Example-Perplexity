@@ -21,7 +21,7 @@ We define the **X-perplexity** of an labelled example ![equation](https://latex.
 ![equation](https://latex.codecogs.com/svg.image?\large&space;\Phi_{X}(\mathbf{x})&space;=&space;\frac{1}{N}&space;\sum_{i=1}^N&space;\mathbf{1}(C_i(\mathbf{x})&space;\neq&space;y)),
 
 where
-![equation](https://latex.codecogs.com/svg.image?C_i(\mathbf{x})&space;=&space;\arg&space;\max_{y}&space;P_i(y|\mathbf{x})) is the class assignment function,  and $\1$ is the indicator function.  In words, it is the fraction of the classifiers that misclassifies the example, hence is between 0 and 1.
+![equation](https://latex.codecogs.com/svg.image?C_i(\mathbf{x})&space;=&space;\arg&space;\max_{y}&space;P_i(y|\mathbf{x})) is the class assignment function,  and ![equation](https://latex.codecogs.com/svg.image?\mathbf{1}) is the indicator function.  In words, it is the fraction of the classifiers that misclassifies the example, hence is between 0 and 1.
 
 -----------------------------------------------------------------------------------------------------------------------
 #### A. 模型池的训练
