@@ -33,7 +33,7 @@ Our created classifier population includes 500 models and can be downloaded from
 
 https://drive.google.com/file/d/11e49_vwygXkIUG7v9vDxy30kY7xMMby2/view?usp=sharing
 
-The models are storage in .h5 format.
+The models are stored in .h5 format.
 
 -----------------------------------------------------------------------------------------------------------------------
 
@@ -96,7 +96,7 @@ Link: http://xai.cse.ust.hk:5000/site/index.html
 <sub><sup>**the resting 500 columns is for the 500 models**</sub></sup>
 
 
-##### C4. netwise_x_perplexity.csv
+##### D4. netwise_x_perplexity.csv
 
 <sub><sup>**The .csv file record the confusion for each image on ImageNet Validation Set in each model**</sub></sup>
 
