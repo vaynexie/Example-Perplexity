@@ -13,7 +13,12 @@ Let ![equation](https://latex.codecogs.com/svg.image?\mathit{C})  be a populatio
 We define the **C-perplexity**  of an unlabelled example ![equation](https://latex.codecogs.com/svg.image?\mathbf{x}) w.r.t ![equation](https://latex.codecogs.com/svg.image?\mathit{C}) to be the following geometric mean:
 
 ![equation](https://latex.codecogs.com/svg.image?\large&space;\Phi_{C}(\mathbf{x})&space;=&space;&space;[\prod_{i=1}^N&space;2^{&space;H(P_i(y|\mathbf{x}))}]^{\frac{1}{N}})
-  
+ 
+The minimum possible value of C-perplexity is 1. High C-perplexity value indicates that the classifiers have low confidence when classifying the example.
+ 
+We define the **X-perplexity** of an labelled example $(\x, y)$ w.r.t ![equation](https://latex.codecogs.com/svg.image?\mathit{C}) to be:
+
+![equation](https://latex.codecogs.com/svg.image?\large&space;\Phi_{X}(\mathbf{x})&space;=&space;\frac{1}{N}&space;\sum_{i=1}^N&space;\1(C_i(\mathbf{x})&space;\neq&space;y)),
 
 -----------------------------------------------------------------------------------------------------------------------
 #### A. 模型池的训练
