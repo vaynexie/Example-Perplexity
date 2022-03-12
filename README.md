@@ -45,12 +45,12 @@ Code for computing the X-Perplexity, C-Perplexity, top 5 X-confusion classes and
 
 
 -----------------------------------------------------------------------------------------------------------------------
-#### D. Result: Perplexity values for the images in the ImageNet validation set
+### D. Result: Perplexity values for the images in the ImageNet validation set
 
 <sub><sup>**The Perplexity.csv can be found here, for other resulted files, since the they are too large, can be downloaded by the url:https://drive.google.com/file/d/1IFi-qytTVEFSpTy-jEWaMKtc8lCuGYPv/view?usp=sharing**</sub></sup>
 
 ##### D1. Perplexity Viewer 
-呈现计算所得ImageNet Validation Set中的样本分类难度和标签区分难度的整体分布情况，同时交互式展示单个样本或标签的信息。
+A visual interactive viewer to show the overall distribution of X-Perplexity and C-Perplexity of the ImageNet Validation Set, along with information about individual samples.
 
 Link: http://xai.cse.ust.hk:5000/site/index.html
 
@@ -59,38 +59,32 @@ Link: http://xai.cse.ust.hk:5000/site/index.html
 
 ##### D2. Perplexity.csv
 
-<sub><sup>**The .csv file includes the following columns:**</sub></sup>
+The .csv file includes the following columns:
 
-<sub><sup>**file_name: file_name for the image**</sub></sup>
+<sub>file_name: file_name for the image</sub>
 
-<sub><sup>**label: hand-annotated label for the image**</sub></sup>
+<sub>label: hand-annotated label for the image</sub>
 
-<sub><sup>**c_perplexity: output C-Perplexity for this image**</sub></sup>
+<sub>c_perplexity: output C-Perplexity for this image</sub>
 
-<sub><sup>**x_perplexity: output X-Perplexity for this image**</sub></sup>
+<sub>x_perplexity: output X-Perplexity for this image</sub>
 
-<sub><sup>**x_perplexity_label: Discretization labels on the x_perplexity (labels include '0','0-0.1','0.1-0.2',...,'1')**</sub></sup>
+<sub>x_perplexity_label: Discretization labels on the x_perplexity (labels include '0','0-0.1','0.1-0.2',...,'1')</sub>
 
-<sub><sup>**top_5_c_perplexity_class: top 5 confusion class for C-Perplexity (includes label_id and C-Confusion Index )**</sub></sup>
+<sub>top_5_c_perplexity_class: top 5 confusion class for C-Perplexity (includes label_id and C-Confusion Index )</sub>
 
-<sub><sup>**top_5_x_perplexity_class: top 5 confusion class for X-Perplexity (includes label_id and X-Confusion Index )**</sub></sup>
-**
+<sub>top_5_x_perplexity_class: top 5 confusion class for X-Perplexity (includes label_id and X-Confusion Index )</sub>
+
 
 ##### D3. netwise_c_perplexity.csv
 
-<sub><sup>**The .csv file record the entropy for each image on ImageNet Validation Set in each model**</sub></sup>
+The .csv file record the entropy for each image on ImageNet Validation Set in each model. Totally, there are 501 columns in this .csv file
 
-<sub><sup>**Totally, there are 501 columns in this .csv file**</sub></sup>
-
-<sub><sup>**the first column is for the filename of the image**</sub></sup>
-<sub><sup>**the resting 500 columns is for the 500 models**</sub></sup>
+The first column is for the filename of the image while the resting 500 columns is for the 500 models.
 
 
 ##### D4. netwise_x_perplexity.csv
 
-<sub><sup>**The .csv file record the confusion for each image on ImageNet Validation Set in each model**</sub></sup>
+The .csv file record the confusion for each image on ImageNet Validation Set in each model. Totally, there are 501 columns in this .csv file.
 
-<sub><sup>**Totally, there are 501 columns in this .csv file**</sub></sup>
-
-<sub><sup>**the first column is for the filename of the image**</sub></sup>
-<sub><sup>**the resting 500 columns is for the 500 models**</sub></sup>
+The first column is for the filename of the image while the resting 500 columns is for the 500 models.
