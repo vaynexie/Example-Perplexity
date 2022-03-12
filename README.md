@@ -6,7 +6,7 @@ To estimate the perplexity of an image for DNNs, we create a population of DNN c
 
 
 -----------------------------------------------------------------------------------------------------------------------
-#### A. Definition to the X-Perplexity and C-Perplexity
+### A. Definition to the X-Perplexity and C-Perplexity
 
 
 -----------------------------------------------------------------------------------------------------------------------
