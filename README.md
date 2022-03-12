@@ -61,19 +61,19 @@ Link: http://xai.cse.ust.hk:5000/site/index.html
 
 The .csv file includes the following columns:
 
-<sub><sup>file_name: file_name for the image</sub></sup>
+<sub>file_name: file_name for the image</sub>
 
-<sub><sup>label: hand-annotated label for the image</sub></sup>
+<sub>label: hand-annotated label for the image</sub>
 
-<sub><sup>c_perplexity: output C-Perplexity for this image</sub></sup>
+<sub>c_perplexity: output C-Perplexity for this image</sub>
 
-<sub><sup>x_perplexity: output X-Perplexity for this image</sub></sup>
+<sub>x_perplexity: output X-Perplexity for this image</sub>
 
-<sub><sup>x_perplexity_label: Discretization labels on the x_perplexity (labels include '0','0-0.1','0.1-0.2',...,'1')</sub></sup>
+<sub>x_perplexity_label: Discretization labels on the x_perplexity (labels include '0','0-0.1','0.1-0.2',...,'1')</sub>
 
-<sub><sup>top_5_c_perplexity_class: top 5 confusion class for C-Perplexity (includes label_id and C-Confusion Index )</sub></sup>
+<sub>top_5_c_perplexity_class: top 5 confusion class for C-Perplexity (includes label_id and C-Confusion Index )</sub>
 
-<sub><sup>top_5_x_perplexity_class: top 5 confusion class for X-Perplexity (includes label_id and X-Confusion Index )</sub></sup>
+<sub>top_5_x_perplexity_class: top 5 confusion class for X-Perplexity (includes label_id and X-Confusion Index )</sub>
 
 
 ##### D3. netwise_c_perplexity.csv
