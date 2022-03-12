@@ -12,11 +12,11 @@ Let ![equation](https://latex.codecogs.com/svg.image?\mathit{C})  be a populatio
 
 We define the **C-perplexity**  of an unlabelled example ![equation](https://latex.codecogs.com/svg.image?\mathbf{x}) w.r.t ![equation](https://latex.codecogs.com/svg.image?\mathit{C}) to be the following geometric mean:
 
-<p align="center">
+\begin{align*}
   
 ![equation](https://latex.codecogs.com/svg.image?\small&space;\Phi_{C}(\mathbf{x})&space;=&space;&space;[\prod_{i=1}^N&space;2^{&space;H(P_i(y|\mathbf{x}))}]^{\frac{1}{N}}).
   
-</p>
+\end{align*}
 -----------------------------------------------------------------------------------------------------------------------
 #### A. 模型池的训练
 
