@@ -47,8 +47,6 @@ Code for computing the X-Perplexity, C-Perplexity, top 5 X-confusion classes and
 -----------------------------------------------------------------------------------------------------------------------
 ### D. Result: Perplexity values for the images in the ImageNet validation set
 
-<sub><sup>**The Perplexity.csv can be found here, for other resulted files, since the they are too large, can be downloaded by the url:https://drive.google.com/file/d/1IFi-qytTVEFSpTy-jEWaMKtc8lCuGYPv/view?usp=sharing**</sub></sup>
-
 ##### D1. Perplexity Viewer 
 A visual interactive viewer to show the overall distribution of X-Perplexity and C-Perplexity of the ImageNet Validation Set, along with information about individual samples.
 
@@ -57,7 +55,7 @@ Link: http://xai.cse.ust.hk:5000/site/index.html
 <img src="https://user-images.githubusercontent.com/69588181/113534528-72898d80-957d-11eb-8d02-fd0855891d25.png" height="430" width="600">
 
 
-##### D2. Perplexity.csv
+##### D2. [Perplexity.csv](https://github.com/vaynexie/Example-Perplexity/blob/main/perplexity.csv)
 
 The .csv file includes the following columns:
 
@@ -76,14 +74,14 @@ The .csv file includes the following columns:
 <sub>top_5_x_perplexity_class: top 5 confusion class for X-Perplexity (includes label_id and X-Confusion Index )</sub>
 
 
-##### D3. netwise_c_perplexity.csv
+##### [D3. netwise_c_perplexity.csv](https://drive.google.com/file/d/1IFi-qytTVEFSpTy-jEWaMKtc8lCuGYPv/view?usp=sharing)
 
 The .csv file record the entropy for each image on ImageNet Validation Set in each model. Totally, there are 501 columns in this .csv file
 
 The first column is for the filename of the image while the resting 500 columns is for the 500 models.
 
 
-##### D4. netwise_x_perplexity.csv
+##### [D4. netwise_x_perplexity.csv](https://drive.google.com/file/d/1IFi-qytTVEFSpTy-jEWaMKtc8lCuGYPv/view?usp=sharing)
 
 The .csv file record the confusion for each image on ImageNet Validation Set in each model. Totally, there are 501 columns in this .csv file.
 
