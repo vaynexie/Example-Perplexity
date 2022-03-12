@@ -30,7 +30,7 @@ c. ILSVRC2012_validation_ground_truth.txt: Hand-annotated label (in the form of 
 
 d. meta.mat: Dictionary that includes detailed information for labels (includes label_index, label_id, label_name, label_explanation)
 
------------------------------------------
+
 Output:
 Totally 500 .npy files that record the prediction results in the form of logits for each images under each model 
 
@@ -54,7 +54,7 @@ c. ILSVRC2012_validation_ground_truth.txt: Hand-annotated label (in the form of 
 
 d. meta.mat: Dictionary that includes detailed information for labels (includes label_index, label_id, label_name, label_explanation)
 
------------------------------------------
+
 Output:
 
 **a. Perplexity.csv**
