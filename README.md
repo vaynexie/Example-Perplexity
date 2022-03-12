@@ -12,7 +12,7 @@ Let ![equation](https://latex.codecogs.com/svg.image?\mathit{C})  be a populatio
 
 For a given example ![equation](https://latex.codecogs.com/svg.image?\mathbf{x}),   
 
-![equation](https://latex.codecogs.com/svg.image?P_i(y|\mathbf{x})) is the probability distribution over the ![equation](https://latex.codecogs.com/svg.image?M) classes computed by classifier ![equation](https://latex.codecogs.com/svg.image?i).  
+![equation](https://latex.codecogs.com/svg.image?\tiny&space;P_i(y|\mathbf{x})) is the probability distribution over the ![equation](https://latex.codecogs.com/svg.image?M) classes computed by classifier ![equation](https://latex.codecogs.com/svg.image?i).  
 
 
 -----------------------------------------------------------------------------------------------------------------------
