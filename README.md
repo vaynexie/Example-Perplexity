@@ -8,6 +8,10 @@ To estimate the perplexity of an image for DNNs, we create a population of DNN c
 -----------------------------------------------------------------------------------------------------------------------
 ### A. Definition to the X-Perplexity and C-Perplexity
 
+An image is difficult to classify for humans if many people find it confusing and classify it incorrectly.  Motivated by this observation, we measure example perplexity in reference to a population classifiers.
+Let $\sC$ be a population of $N$ classifiers for classifying examples into $M$ classes.
+For a given example $\x$, $P_i(y|\x)$ is the probability distribution over the $M$ classes computed by classifier $i$.  The entropy $H(P_i(y|\x)) = - \sum_y P_i(y|\x) \log_2 P_i(y|\x)$  is a measure of how uncertain the classifier is when classifying $\x$.  The {\em perplexity of the probability distribution} is defined to be $2^{H(P_i(y|\x))}$. The larger the perplexity, the less confident the classifier is about its prediction. When the distribution places equal probability on $k$ possible classes and zero probability on others, the perplexity is $k$.
+
 
 -----------------------------------------------------------------------------------------------------------------------
 #### A. 模型池的训练
