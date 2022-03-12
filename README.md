@@ -59,38 +59,34 @@ Link: http://xai.cse.ust.hk:5000/site/index.html
 
 ##### D2. Perplexity.csv
 
-<sub><sup>**The .csv file includes the following columns:**</sub></sup>
+The .csv file includes the following columns:
 
-<sub><sup>**file_name: file_name for the image**</sub></sup>
+<sub><sup>file_name: file_name for the image</sub></sup>
 
-<sub><sup>**label: hand-annotated label for the image**</sub></sup>
+<sub><sup>label: hand-annotated label for the image</sub></sup>
 
-<sub><sup>**c_perplexity: output C-Perplexity for this image**</sub></sup>
+<sub><sup>c_perplexity: output C-Perplexity for this image</sub></sup>
 
-<sub><sup>**x_perplexity: output X-Perplexity for this image**</sub></sup>
+<sub><sup>x_perplexity: output X-Perplexity for this image</sub></sup>
 
-<sub><sup>**x_perplexity_label: Discretization labels on the x_perplexity (labels include '0','0-0.1','0.1-0.2',...,'1')**</sub></sup>
+<sub><sup>x_perplexity_label: Discretization labels on the x_perplexity (labels include '0','0-0.1','0.1-0.2',...,'1')</sub></sup>
 
-<sub><sup>**top_5_c_perplexity_class: top 5 confusion class for C-Perplexity (includes label_id and C-Confusion Index )**</sub></sup>
+<sub><sup>top_5_c_perplexity_class: top 5 confusion class for C-Perplexity (includes label_id and C-Confusion Index )</sub></sup>
 
-<sub><sup>**top_5_x_perplexity_class: top 5 confusion class for X-Perplexity (includes label_id and X-Confusion Index )**</sub></sup>
-**
+<sub><sup>top_5_x_perplexity_class: top 5 confusion class for X-Perplexity (includes label_id and X-Confusion Index )</sub></sup>
+
 
 ##### D3. netwise_c_perplexity.csv
 
-<sub><sup>**The .csv file record the entropy for each image on ImageNet Validation Set in each model**</sub></sup>
+The .csv file record the entropy for each image on ImageNet Validation Set in each model. Totally, there are 501 columns in this .csv file
 
-<sub><sup>**Totally, there are 501 columns in this .csv file**</sub></sup>
-
-<sub><sup>**the first column is for the filename of the image**</sub></sup>
-<sub><sup>**the resting 500 columns is for the 500 models**</sub></sup>
+<sub><sup>the first column is for the filename of the image</sub></sup>
+<sub><sup>the resting 500 columns is for the 500 models</sub></sup>
 
 
 ##### D4. netwise_x_perplexity.csv
 
-<sub><sup>**The .csv file record the confusion for each image on ImageNet Validation Set in each model**</sub></sup>
+The .csv file record the confusion for each image on ImageNet Validation Set in each model. Totally, there are 501 columns in this .csv file.
 
-<sub><sup>**Totally, there are 501 columns in this .csv file**</sub></sup>
-
-<sub><sup>**the first column is for the filename of the image**</sub></sup>
-<sub><sup>**the resting 500 columns is for the 500 models**</sub></sup>
+<sub><sup>the first column is for the filename of the image</sub></sup>
+<sub><sup>the resting 500 columns is for the 500 models</sub></sup>
