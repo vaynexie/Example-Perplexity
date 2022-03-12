@@ -20,7 +20,7 @@ Classifier Population: https://drive.google.com/file/d/11e49_vwygXkIUG7v9vDxy30k
 The purpose of this code is to run the 500 trained models on ImageNet Validation Set and output the prediction result.
 
 
-Input: 
+### Input: 
 
 a. 500 trained model (in the form of .h5) 
 
@@ -31,7 +31,7 @@ c. ILSVRC2012_validation_ground_truth.txt: Hand-annotated label (in the form of 
 d. meta.mat: Dictionary that includes detailed information for labels (includes label_index, label_id, label_name, label_explanation)
 
 
-Output:
+### Output:
 Totally 500 .npy files that record the prediction results in the form of logits for each images under each model 
 
 
@@ -44,7 +44,7 @@ Totally 500 .npy files that record the prediction results in the form of logits 
 
 ## C. Code 2: c_x_perplexity_and_top_5.py
 
-Input:
+### Input:
 
 a. 500 .npy files that record the prediction results  
 
@@ -55,7 +55,7 @@ c. ILSVRC2012_validation_ground_truth.txt: Hand-annotated label (in the form of 
 d. meta.mat: Dictionary that includes detailed information for labels (includes label_index, label_id, label_name, label_explanation)
 
 
-Output:
+### Output:
 
 **a. Perplexity.csv**
 
