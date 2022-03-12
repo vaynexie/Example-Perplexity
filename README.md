@@ -35,6 +35,11 @@ For the details, please check out our paper [URL].
 
 -----------------------------------------------------------------------------------------------------------------------
 
+### D. Result: Perplexity values for the images in the ImageNet validation set
+
+
+-----------------------------------------------------------------------------------------------------------------------
+
 #### A. 模型池的训练
 
 <img src="https://user-images.githubusercontent.com/69588181/113399432-b2b5f980-934c-11eb-8b81-b7e579b46bf3.png" height="430" width="600">
