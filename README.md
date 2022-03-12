@@ -16,9 +16,12 @@ We define the **C-perplexity**  of an unlabelled example ![equation](https://lat
  
 The minimum possible value of C-perplexity is 1. High C-perplexity value indicates that the classifiers have low confidence when classifying the example.
  
-We define the **X-perplexity** of an labelled example $(\x, y)$ w.r.t ![equation](https://latex.codecogs.com/svg.image?\mathit{C}) to be:
+We define the **X-perplexity** of an labelled example ![equation](https://latex.codecogs.com/svg.image?(\mathbf{x},&space;y)) w.r.t ![equation](https://latex.codecogs.com/svg.image?\mathit{C}) to be:
 
 ![equation](https://latex.codecogs.com/svg.image?\large&space;\Phi_{X}(\mathbf{x})&space;=&space;\frac{1}{N}&space;\sum_{i=1}^N&space;\mathbf{1}(C_i(\mathbf{x})&space;\neq&space;y)),
+
+where
+![equation](https://latex.codecogs.com/svg.image?C_i(\mathbf{x})&space;=&space;\arg&space;\max_{y}&space;P_i(y|\mathbf{x})) is the class assignment function,  and $\1$ is the indicator function.  In words, it is the fraction of the classifiers that misclassifies the example, hence is between 0 and 1.
 
 -----------------------------------------------------------------------------------------------------------------------
 #### A. 模型池的训练
