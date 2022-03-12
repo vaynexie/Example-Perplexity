@@ -45,7 +45,7 @@ Code for computing the X-Perplexity, C-Perplexity, top 5 X-confusion classes and
 
 
 -----------------------------------------------------------------------------------------------------------------------
-#### D. Result: Perplexity values for the images in the ImageNet validation set
+### D. Result: Perplexity values for the images in the ImageNet validation set
 
 <sub><sup>**The Perplexity.csv can be found here, for other resulted files, since the they are too large, can be downloaded by the url:https://drive.google.com/file/d/1IFi-qytTVEFSpTy-jEWaMKtc8lCuGYPv/view?usp=sharing**</sub></sup>
 
