@@ -1,6 +1,6 @@
 # Estimation of Example Perplexity
 
-Some examples are easier for humans to classify than others. The same should be true for deep neural networks (DNNs). We use the term **example perplexity** to refer to the level of difficulty of classifying an example. In this paper, we propose a method to measure the perplexity of an example and investigate what factors contribute to high example perplexity.
+Some examples are easier for humans to classify than others. The same should be true for deep neural networks (DNNs). We use the term **Example Perplexity** to refer to the level of difficulty of classifying an example. In this paper, we propose a method to measure the perplexity of an example and investigate what factors contribute to high example perplexity.
 
 
 ### 技术框架
