@@ -31,7 +31,7 @@ For the details, please check out our paper [URL].
 
 -----------------------------------------------------------------------------------------------------------------------
 
-### C. The Source Code for computing ** X-Perplexity and C-Perplexity** 
+### C. The Source Code for computing *X-Perplexity* and *C-Perplexity*
 
 -----------------------------------------------------------------------------------------------------------------------
 
