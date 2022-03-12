@@ -41,9 +41,9 @@ The models are stored in .h5 format.
 
 For the details about how to use the code, please check the ReadMe in the code folder
 
-#### [C1. Validation_Images_Test](https://github.com/vaynexie/Example-Perplexity/tree/main/Validation_Images_Test)
+#### [Validation_Images_Test](https://github.com/vaynexie/Example-Perplexity/tree/main/Validation_Images_Test)
 
-<sub><sup>Code for computing the X-Perplexity, C-Perplexity, top 5 X-confusion classes and top 5 C-confusion classes for images in ImageNet validation set</sub></sup>
+Code for computing the X-Perplexity, C-Perplexity, top 5 X-confusion classes and top 5 C-confusion classes for images in ImageNet validation set.
 
 
 -----------------------------------------------------------------------------------------------------------------------
