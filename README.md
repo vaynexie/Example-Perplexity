@@ -1,5 +1,4 @@
-# HKUST-Huawei Collaborative Research Project: YB2015070037
-## WP1 Estimation of Example Perplexity
+# Estimation of Example Perplexity
 
 ### 技术框架
 
