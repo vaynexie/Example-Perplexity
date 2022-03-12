@@ -47,15 +47,13 @@ Code for computing the X-Perplexity, C-Perplexity, top 5 X-confusion classes and
 -----------------------------------------------------------------------------------------------------------------------
 ### D. Result: Perplexity values for the images in the ImageNet validation set
 
-##### D1. Perplexity Viewer 
+##### [D1. Perplexity Viewer](http://xai.cse.ust.hk:5000/site/index.html) 
 A visual interactive viewer to show the overall distribution of X-Perplexity and C-Perplexity of the ImageNet Validation Set, along with information about individual samples.
-
-Link: http://xai.cse.ust.hk:5000/site/index.html
 
 <img src="https://user-images.githubusercontent.com/69588181/113534528-72898d80-957d-11eb-8d02-fd0855891d25.png" height="430" width="600">
 
 
-##### D2. [Perplexity.csv](https://github.com/vaynexie/Example-Perplexity/blob/main/perplexity.csv)
+##### [D2. Perplexity.csv](https://github.com/vaynexie/Example-Perplexity/blob/main/perplexity.csv)
 
 The .csv file includes the following columns:
 
