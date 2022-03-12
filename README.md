@@ -50,7 +50,7 @@ Code for computing the X-Perplexity, C-Perplexity, top 5 X-confusion classes and
 <sub><sup>**The Perplexity.csv can be found here, for other resulted files, since the they are too large, can be downloaded by the url:https://drive.google.com/file/d/1IFi-qytTVEFSpTy-jEWaMKtc8lCuGYPv/view?usp=sharing**</sub></sup>
 
 ##### D1. Perplexity Viewer 
-呈现计算所得ImageNet Validation Set中的样本分类难度和标签区分难度的整体分布情况，同时交互式展示单个样本或标签的信息。
+A visual interactive viewer to show the overall distribution of X-Perplexity and C-Perplexity of the ImageNet Validation Set, along with information about individual samples.
 
 Link: http://xai.cse.ust.hk:5000/site/index.html
 
