@@ -41,18 +41,10 @@ The models are stored in .h5 format.
 
 For the details about how to use the code, please check the ReadMe in the code folder
 
-#### C1. Validation_Images_Test
+#### [C1. Validation_Images_Test](https://github.com/vaynexie/Example-Perplexity/tree/main/Validation_Images_Test)
 
-<sub><sup>Code for computing the X-Perplexity, C-Perplexity, top 5 X-confusion classes and top 5 C-confusion classes for image in ImageNet validation set</sub></sup>
+<sub><sup>Code for computing the X-Perplexity, C-Perplexity, top 5 X-confusion classes and top 5 C-confusion classes for images in ImageNet validation set</sub></sup>
 
-
-##### C2. Multiple_Images_Test
-
-<sub><sup>Code for computing the X-Perplexity, C-Perplexity, top 5 X-confusion classes and top 5 C-confusion classes, and providing example explanation images for the input images (the input images do not need to be in the ImageNet validation set, can be any image from the Internet as long as its label is in the 1000 classes of ImageNet.</sub></sup>
-
-##### C3. Input_different
-
-<sub><sup>Code for allowing user to compute image perplexity using their own classifier populaiton on different datasets apart from ImageNet.</sub></sup>
 
 -----------------------------------------------------------------------------------------------------------------------
 #### D. Result: Perplexity values for the images in the ImageNet validation set
