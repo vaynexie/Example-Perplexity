@@ -76,11 +76,11 @@ The .csv file includes the the compuated perplexity information for the images i
 
 The .csv file record the entropy for each image on ImageNet Validation Set in each model. Totally, there are 501 columns in this .csv file
 
-The first column is for the images' filenames while the rest 500 columns are for the 500 models.
+The first column is for the images' filenames, while the rest 500 columns are for the 500 models indicating the confusion of the images under the models.
 
 
 #### [D4. netwise_x_perplexity.csv](https://drive.google.com/file/d/1IFi-qytTVEFSpTy-jEWaMKtc8lCuGYPv/view?usp=sharing)
 
 The .csv file record the confusion for each image on ImageNet Validation Set in each model. Totally, there are 501 columns in this .csv file.
 
-The first column is for the images' filenames while the rest 500 columns are for the 500 models.
+The first column is for the images' filenames, while the rest 500 columns are for the 500 models indicating the confusion of the images under the models.
