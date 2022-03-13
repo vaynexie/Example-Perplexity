@@ -2,7 +2,7 @@
 
 Some examples are easier for humans to classify than others. The same should be true for deep neural networks (DNNs). We use the term **Example Perplexity** to refer to the level of difficulty of classifying an example. In this work, we propose a method to measure the Perplexity of an example and investigate what factors contribute to high example perplexity.
 
-To estimate the Perplexity of an image for DNNs, we create a population of DNN classifiers with varying architectures and trained on data of varying sample sizes, just as different people have different IQs and different amounts of experiences. For an unlabeled example, the average entropy of the output probability distributions of the classifiers is taken to be the **C-perplexity** of the Example, where C stands for "confusion". For a labeled example, the fraction of classifiers that misclassify the Example is taken to be the **X-perplexity** of the Example, where X stands for "mistake".
+To estimate the perplexity of an image for DNNs, we create a population of DNN classifiers with varying architectures and trained on data of varying sample sizes, just as different people have different IQs and different amounts of experiences. For an unlabeled example, the average entropy of the output probability distributions of the classifiers is taken to be the **C-Perplexity** of the Example, where C stands for "confusion". For a labeled example, the fraction of classifiers that misclassify the Example is taken to be the **X-Perplexity** of the Example, where X stands for "mistake".
 
 
 -----------------------------------------------------------------------------------------------------------------------
@@ -10,7 +10,7 @@ To estimate the Perplexity of an image for DNNs, we create a population of DNN c
 
 Let ![equation](https://latex.codecogs.com/svg.image?\mathit{C})  be a population of ![equation](https://latex.codecogs.com/svg.image?N) classifiers for classifying examples into ![equation](https://latex.codecogs.com/svg.image?M) classes. For a given example ![equation](https://latex.codecogs.com/svg.image?\mathbf{x}), ![equation](https://latex.codecogs.com/svg.image?\small&space;P_i(y|\mathbf{x})) is the probability distribution over the ![equation](https://latex.codecogs.com/svg.image?M) classes computed by classifier ![equation](https://latex.codecogs.com/svg.image?i).  
 
-We define the **C-perplexity**  of an unlabelled example ![equation](https://latex.codecogs.com/svg.image?\mathbf{x}) w.r.t ![equation](https://latex.codecogs.com/svg.image?\mathit{C}) to be the following geometric mean:
+We define the **C-Perplexity**  of an unlabelled example ![equation](https://latex.codecogs.com/svg.image?\mathbf{x}) w.r.t ![equation](https://latex.codecogs.com/svg.image?\mathit{C}) to be the following geometric mean:
 
 ![equation](https://latex.codecogs.com/svg.image?\large&space;\Phi_{C}(\mathbf{x})&space;=&space;&space;[\prod_{i=1}^N&space;2^{&space;H(P_i(y|\mathbf{x}))}]^{\frac{1}{N}})
  
