@@ -23,7 +23,7 @@ We define the **X-perplexity** of an labelled example ![equation](https://latex.
 , where
 ![equation](https://latex.codecogs.com/svg.image?\small&space;C_i(\mathbf{x})&space;=&space;\arg&space;\max_{y}&space;P_i(y|\mathbf{x})) is the class assignment function,  and ![equation](https://latex.codecogs.com/svg.image?\mathbf{1}) is the indicator function.  In words, it is the fraction of the classifiers that misclassifies the example, hence is between 0 and 1.
 
-For the details, please check out our [paper](https://arxiv.org/abs/2203.08813)
+For the details, please check out our [paper](https://arxiv.org/abs/2203.08813).
 
 -----------------------------------------------------------------------------------------------------------------------
 
