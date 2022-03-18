@@ -39,7 +39,7 @@ The models are stored in .h5 format and can be read in by *keras.models.load_mod
 
 ## C. The Source Codes for computing *X-Perplexity* and *C-Perplexity* [(Validation_Images_Test)](https://github.com/vaynexie/Example-Perplexity/tree/main/Validation_Images_Test)
 
-Code for computing the X-Perplexity, C-Perplexity, top 5 X-confusion classes and top 5 C-confusion classes for images in ImageNet validation set. For the details about using the code, please check the ReadMe in the code folder.
+Codes for computing the X-Perplexity, C-Perplexity, top 5 X-confusion classes and top 5 C-confusion classes for images in ImageNet validation set, are under the folder [(Validation_Images_Test)](https://github.com/vaynexie/Example-Perplexity/tree/main/Validation_Images_Test). For the details about using the code, please check the ReadMe in the code folder.
 
 
 
