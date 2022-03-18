@@ -84,3 +84,8 @@ The first column is for the images' filenames, while the rest 500 columns are fo
 The .csv file record the confusion for each image on ImageNet Validation Set in each model. Totally, there are 501 columns in this .csv file.
 
 The first column is for the images' filenames, while the rest 500 columns are for the 500 models indicating the confusion of the images under the models.
+
+
+-----------------------------------------------------------------------------------------------------------------------
+Enquiry for the code related issues:
+Vayne Xie (wxieai@connect.ust.hk) (The Hong Kong University of Science and Techonology)
