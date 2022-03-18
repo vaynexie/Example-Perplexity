@@ -31,7 +31,7 @@ For the details, please check out our [paper](https://arxiv.org/abs/2203.08813).
 
 Our created classifier population includes 500 models and can be downloaded from:
 
-https://drive.google.com/file/d/11e49_vwygXkIUG7v9vDxy30kY7xMMby2/view?usp=sharing
+https://drive.google.com/file/d/11e49_vwygXkIUG7v9vDxy30kY7xMMby2/view?usp=sharing .
 
 The models are stored in .h5 format and can be read in by *keras.models.load_model()*.
 
